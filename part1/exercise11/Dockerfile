@@ -4,4 +4,4 @@ WORKDIR /usr/src/app
 
 COPY . .
 
-RUN java -jar ./target/docker-example-1.1.3.jar
+CMD ["java", "-jar", "./target/docker-example-1.1.3.jar"]
